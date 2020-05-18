@@ -1,0 +1,34 @@
+import React, { PureComponent } from "react";
+import "./style.css"
+
+class ErrorToast extends PureComponent {
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
+
+  render() {
+    const { msg } = this.props;
+    return (
+      <div className="errorToast">
+        <div className="errorToast_text">{msg}</div>
+      </div>
+    );
+  }
+
+  componentDidMount() {
+    this.timer = setTimeout(() => {
+      this.props.clearError();
+    }, 3000);
+  }
+
+  componentWillUnmount()
+  {
+      if(this.timer){
+        clearTimeout(this.timer)
+      }
+  }
+}
+
+export default ErrorToast;

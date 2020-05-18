@@ -1,0 +1,18 @@
+.category{
+   overflow:hidden;
+   border-top:1px solid #e1e1e1;
+   border-bottom:1px solid #e1e1e1;
+   padding:0 0 30px;
+   color: #333;
+  background-color: #fff;
+}
+.category__section{
+   float:left;
+   width:20%;
+   padding:13px 0 0 ;
+}
+.category__icon{
+    width:44px;
+    height:44px;
+    margin :0 auto 2px;
+ }

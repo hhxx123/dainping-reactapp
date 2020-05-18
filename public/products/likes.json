@@ -1,0 +1,35 @@
+[
+  {
+    "id": "p-1",
+    "shopIds": ["s-1", "s-1", "s-1"],
+    "shop": "院落創意菜",
+    "tag": "免預約",
+    "picture": "",
+    "product": "三店通用 百香果（冷飲）1扎",
+    "currentPrice": 19.9,
+    "oldPrice": 48,
+    "saleDesc": "已售6034"
+  },
+  {
+    "id": "p-2",
+    "shopIds": ["s-1", "s-1", "s-1"],
+    "shop": "院落創意菜",
+    "tag": "免預約",
+    "picture": "",
+    "product": "三店通用 百香果（冷飲）1扎",
+    "currentPrice": 19.9,
+    "oldPrice": 48,
+    "saleDesc": "已售6034"
+  },
+  {
+    "id": "p-3",
+    "shopIds": ["s-1", "s-1", "s-1"],
+    "shop": "院落創意菜",
+    "tag": "免預約",
+    "picture": "",
+    "product": "三店通用 百香果（冷飲）1扎",
+    "currentPrice": 19.9,
+    "oldPrice": 48,
+    "saleDesc": "已售6034"
+  }
+]
